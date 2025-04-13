@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/check-grammar.js", "use": "@vercel/node" }
+    { "src": "api/grammar.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/check-grammar", "dest": "/api/check-grammar.js" }
+    { "src": "/api/grammar", "dest": "/api/grammar.js" }
   ]
 }
