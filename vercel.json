@@ -4,6 +4,8 @@
     { "src": "api/grammar.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/api/grammar", "dest": "/api/grammar.js" }
+    { "src": "/api/grammar", "dest": "/api/grammar.js" },
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
